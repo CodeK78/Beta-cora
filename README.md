@@ -56,7 +56,7 @@ A patient index file (Excel) listing all patient identifiers is required.
 
 ## Pretraining
 
-1. Update paths in `pretrain.py`:
+1. Update paths in `pretrain_CORA.py`:
    ```python
    EXCEL_FILE = "data/CTA_all_list.xlsx"
    NPZ_ROOT = "/path/to/preprocessed/npz"
@@ -65,7 +65,7 @@ A patient index file (Excel) listing all patient identifiers is required.
 
 2. Run pretraining:
    ```bash
-   python pretrain.py
+   python pretrain_CORA.py
    ```
 
 ### Key Hyperparameters
