@@ -1,10 +1,7 @@
-# CORA
+# Under review
 
 
 ## Overview
-
-CORA is pretrained by detecting synthetically generated coronary lesions inserted into real CCTA volumes. This biases the encoder toward vascular pathology rather than dominant background anatomy. The framework consists of three components:
-
 - **Synthesis Engine** (`dataset.py`): Generates realistic calcified and non-calcified plaques with controlled HU distributions and irregular morphologies within coronary artery regions.
 - **Multi-Window Input**: Converts raw HU volumes into 4-channel inputs (fat, soft tissue, angiographic, calcification windows) to capture complementary attenuation characteristics.
 - **3D Residual U-Net** (`model.py`): Encoder-decoder architecture pretrained on abnormality segmentation, with downstream task heads for classification and multimodal MACE prediction.
