@@ -73,7 +73,7 @@ A patient index file (Excel) listing all patient identifiers is required.
 | Parameter | Default | Description |
 |-----------|---------|-------------|
 | `EPOCHS` | 50 | Number of pretraining epochs |
-| `BATCH_SIZE` | 56 | Batch size |
+| `BATCH_SIZE` | 64 | Batch size |
 | `LEARNING_RATE` | 1e-4 | Peak learning rate (AdamW) |
 | `PATCH_SHAPE` | (96, 96, 96) | Patch size for artery-centric sampling |
 | `WARMUP_EPOCHS` | 3 | Linear warmup epochs |
