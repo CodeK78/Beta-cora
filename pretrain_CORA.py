@@ -158,7 +158,7 @@ def find_latest_checkpoint(checkpoint_dir):
 def main():
     # --- Configuration ---
     EPOCHS = 50
-    BATCH_SIZE = 24
+    BATCH_SIZE = 64
     LEARNING_RATE = 1e-4
     NUM_WORKERS = 8
     WARMUP_EPOCHS = 3
