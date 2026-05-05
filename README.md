@@ -52,7 +52,7 @@ npz_root/
 └── ...
 ```
 
-A patient index file (Excel) listing all patient identifiers is required.
+A patient index file (Excel) listing all patient identifiers is required. We provide one example data via  [Google Drive](https://drive.google.com/file/d/1nwgKKOmowFYkT6aM3KU-U-VNJBM_aGvc/view?usp=sharing).
 
 ## Pretraining
 
