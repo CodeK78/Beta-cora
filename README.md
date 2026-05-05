@@ -89,6 +89,7 @@ The pretraining objective combines:
 ## Downstream Usage
 
 After pretraining, the encoder weights can be loaded for downstream tasks:
+The pretrained model checkpoints can be downloaded via [Google Drive](https://drive.google.com/file/d/1ATK9GbN5wt89HkSZRUI2z9WoFGNFfwbb/view?usp=sharing).
 
 ```python
 from model import CORAClassifier
